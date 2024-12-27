@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software</title>
+    <style>
+        /* Estilizando o botão de voltar */
+        button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Layout geral */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 70px;
+            color: #333;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Espaço reservado no topo para o botão */
+        body::before {
+            content: "";
+            display: block;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão para voltar ao menu -->
+    <button onclick="location.href='index.html'">
+        Volte para o Menu
+    </button>
+
+    <h1>Driver do Mouse</h1>
+
+    <div class="content">
+        <p>O link abaixo leva ao driver do mouse M800DB. Clique para fazer o download do software necessário para o funcionamento do dispositivo:</p>
+        <a href="https://www.deluxworld.com/en-service-12.html?stoken=f8a91b4b1ec2bd6c65903abf3c52cb93&title=M800DB" target="_blank">
+            Acesse o Driver do Mouse
+        </a>
+    </div>
+</body>
+</html>

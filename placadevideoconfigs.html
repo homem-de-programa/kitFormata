@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placa de Vídeo Configs</title>
+    <style>
+        /* Estilizando o botão */
+        button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Centralizando e estilizando imagens */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+
+        img {
+            max-width: 80%;
+            margin: 20px auto;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+
+        /* Espaço no topo para o botão */
+        body::before {
+            content: "";
+            display: block;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão para voltar ao menu -->
+    <button onclick="location.href='index.html'">
+        Volte para o Menu
+    </button>
+
+    <!-- Imagens -->
+    <img src="imgs/image.png" alt="Imagem 1">
+    <img src="imgs/image copy 2.png" alt="Imagem 2">
+    <img src="imgs/image copy.png" alt="Imagem 3">
+</body>
+</html>
